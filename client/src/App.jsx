@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      <h1>FinBoard</h1>
+      <div className="min-h-screen bg-zinc-950 text-white flex items-center justify-center">
+        <h1 className="text-5xl font-bold">FinBoard</h1>
+      </div>
     </>
   );
 }
