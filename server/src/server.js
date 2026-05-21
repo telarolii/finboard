@@ -8,7 +8,7 @@ const startServer = async () => {
   // It will wait for the database to load before starting the server
 
   app.listen(PORT, () => {
-    console.log(`Servidor iniciado na porta ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
   });
 };
 
