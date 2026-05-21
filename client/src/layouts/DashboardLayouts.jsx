@@ -9,7 +9,11 @@ export default function DashboardLayout() {
       <div className="flex-1 flex flex-col">
         <Topbar />
 
-        <main className="flex-1 p-6">Content Area</main>
+        <main className="flex-1 p-6 overflow-auto">
+          <div className="border border-dashed border-zinc-800 rounded-2xl h-full flex items-center justify-center">
+            <p className="text-zinc-500">Dashboard Content</p>
+          </div>
+        </main>
       </div>
     </div>
   );
